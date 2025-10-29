@@ -13,8 +13,8 @@ renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1.2;
 
-// Background color: #E7E7E7FF (alpha ignored, so #E7E7E7)
-const bgColor = 0xE7E7E7;
+// Background color: #F5F5F5 (alpha ignored, so #E7E7E7)
+const bgColor = 0xF5F5F5;
 renderer.setClearColor(bgColor, 1.0);
 document.body.appendChild(renderer.domElement);
 
